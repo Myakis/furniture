@@ -538,6 +538,10 @@ form input {
   margin-bottom: 30px;
 }
 
+.salary .modal-form {
+  margin-top: 15%;
+}
+
 .salary-wrapper {
   overflow: hidden;
   max-height: 520px;
@@ -1101,6 +1105,22 @@ form input {
   font-size: 12px;
 }
 
+.stages__title {
+  font-size: 48px;
+}
+
+.advantages__title {
+  font-size: 48px;
+}
+
+.form__button {
+  width: 100%;
+}
+
+.salary .modal-form {
+  margin-top: 5px;
+}
+
 @media (max-width: 1200px) {
   .conteiner {
     width: 95%;
@@ -1281,6 +1301,65 @@ form input {
   .footer__button {
     padding: 6px 10px;
   }
+
+  .stages__title {
+    font-size: 45px;
+  }
+
+  .advantages__title {
+    font-size: 45px;
+  }
+
+  .salary__title {
+    font-size: 45px;
+  }
+
+  .actions__title {
+    font-size: 45px;
+  }
+
+  .documents__title {
+    font-size: 45px;
+  }
+
+  .interview__title {
+    font-size: 45px;
+  }
+
+  .coordinates__title {
+    font-size: 45px;
+  }
+
+  .coordinates-form__about {
+    padding-top: 30px;
+  }
+
+  .coordinates__map {
+    min-height: 500px;
+  }
+
+  .coordinates__map iframe {
+    height: 500px;
+  }
+
+  .form__about-text {
+    font-size: 16px;
+  }
+
+  .stages__test,
+  .advantages__text,
+  .salary__text,
+  .actions__text,
+  .documents__text,
+  .interview__text,
+  .interview__about,
+  .coordinates__test {
+    font-size: 18px;
+  }
+
+  .salary {
+    padding: 60px 0;
+  }
 }
 
 @media (max-width: 768px) {
@@ -1358,12 +1437,174 @@ form input {
   .footer__icon-phone {
     display: block;
   }
+
+  .stages__title {
+    font-size: 40px;
+  }
+
+  .advantages__title {
+    font-size: 40px;
+  }
+
+  .salary__title {
+    font-size: 40px;
+  }
+
+  .actions__title {
+    font-size: 40px;
+  }
+
+  .documents__title {
+    font-size: 40px;
+  }
+
+  .interview__title {
+    font-size: 40px;
+  }
+
+  .coordinates__title {
+    font-size: 40px;
+  }
+
+  .form__about {
+    margin-bottom: 30px;
+  }
+
+  .form__button {
+    font-size: 14px;
+  }
+
+  .warn-text {
+    margin-left: 10px;
+    font-size: 18px;
+  }
+
+  .modal-form-once {
+    margin-right: 0;
+    margin: 50px auto 0 auto;
+  }
+
+  .header-bottom__description {
+    font-size: 25px;
+  }
+
+  .stages__test,
+  .advantages__text,
+  .salary__text,
+  .actions__text,
+  .documents__text,
+  .interview__text,
+  .interview__about,
+  .coordinates__test {
+    font-size: 16px;
+  }
+
+  .coordinates__test {
+    margin-bottom: 0;
+  }
+
+  .modal-form__last {
+    padding: 0 5px;
+  }
+
+  .form__politic {
+    font-size: 14px;
+  }
+
+  .salary {
+    padding: 40px 0;
+  }
+
+  .footer__phone {
+    font-size: 20px;
+    margin: 10px 0 15px 0;
+  }
+
+  .header {
+    padding-bottom: 60px;
+  }
+
+  .stages {
+    padding-bottom: 60px;
+  }
 }
 
 @media (max-width: 755px) {
   .form-wrapper__input {
     margin: auto;
     margin-top: 10px;
+  }
+}
+
+@media (max-width: 567px) {
+  .stages__title {
+    font-size: 30px;
+  }
+
+  .advantages__title {
+    font-size: 30px;
+  }
+
+  .salary__title {
+    font-size: 30px;
+  }
+
+  .actions__title {
+    font-size: 30px;
+  }
+
+  .documents__title {
+    font-size: 30px;
+  }
+
+  .interview__title {
+    font-size: 30px;
+  }
+
+  .coordinates__title {
+    font-size: 30px;
+  }
+
+  .form-wrapper__input {
+    width: 100%;
+  }
+
+  .form__input {
+    width: 100%;
+  }
+
+  .header-bottom__description {
+    font-size: 20px;
+  }
+
+  .form label {
+    text-align: center;
+  }
+
+  .form__input {
+    margin: 5px auto 5px auto;
+  }
+
+  .form__button {
+    margin: 16px auto 0 auto;
+  }
+
+  .modal-form__last .form-wrapper__input {
+    -ms-flex-preferred-size: 100%;
+        flex-basis: 100%;
+  }
+
+  .modal-form__last button {
+    width: 100%;
+  }
+
+  .survey__title {
+    margin-top: 0;
+  }
+
+  .survey__text {
+    margin-top: 0;
+    margin-bottom: 0;
   }
 }
 
@@ -1484,5 +1725,17 @@ form input {
 
   .footer__icon-phone {
     display: none;
+  }
+}
+
+@media (max-width: 400px) {
+  .documents__block-video {
+    height: 230px;
+  }
+
+  .footer__about {
+    margin-top: 10px;
+    -ms-flex-preferred-size: 100%;
+        flex-basis: 100%;
   }
 }
