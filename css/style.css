@@ -1117,10 +1117,6 @@ form input {
   width: 100%;
 }
 
-.salary .modal-form {
-  margin-top: 5px;
-}
-
 @media (max-width: 1200px) {
   .conteiner {
     width: 95%;
@@ -1537,6 +1533,10 @@ form input {
 }
 
 @media (max-width: 567px) {
+  .salary .modal-form {
+    margin-top: 10%;
+  }
+
   .stages__title {
     font-size: 30px;
   }
